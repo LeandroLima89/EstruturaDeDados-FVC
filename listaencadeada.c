@@ -29,7 +29,7 @@ void main()
            switch (opcao) {
                   case 'i':
                        puts("Qual dado a inserir?");
-				   gets(linha);
+                       gets(linha);
                        sscanf(linha, "%d", &valor);
                        insere_no(ptlista, valor);
                        break;
